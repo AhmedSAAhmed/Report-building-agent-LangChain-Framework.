@@ -13,5 +13,9 @@ wheels/
 .env
 
 .env
-sessions/
-logs/
+# Keep runtime data local, except the sample evidence linked in README.md.
+sessions/*
+!sessions/731d05b8-6c5d-4ba6-a6e4-d1979ff34714.json
+logs/*
+!logs/session_731d05b8-6c5d-4ba6-a6e4-d1979ff34714.json
+!logs/demo_execution.txt

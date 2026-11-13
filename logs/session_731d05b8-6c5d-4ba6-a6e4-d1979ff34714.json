@@ -1,0 +1,20 @@
+[
+  {
+    "timestamp": "2026-11-14T01:24:46.152828",
+    "session_id": "731d05b8-6c5d-4ba6-a6e4-d1979ff34714",
+    "tool_name": "document_reader",
+    "input": {
+      "doc_id": "CON-001"
+    },
+    "output": "{'found': True, 'doc_type': 'contract'}"
+  },
+  {
+    "timestamp": "2026-11-14T01:25:01.550297",
+    "session_id": "731d05b8-6c5d-4ba6-a6e4-d1979ff34714",
+    "tool_name": "calculator",
+    "input": {
+      "expression": "180000 / 12"
+    },
+    "output": "{'result': 15000.0}"
+  }
+]
